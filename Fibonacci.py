@@ -13,7 +13,7 @@ A Fibonacci sequence is the integer sequence of 0, 1, 1, 2, 3, 5, 8....
 discussion ****
 '''
 
-print("Using Class, Iterator and Fibonacci:")
+# Using an iterator for a solution:
 class Fibonacci():
     def __init__(self, a, b):
         self.a = a
@@ -30,8 +30,8 @@ for r in f.series():
     print(r, end=' ')
 
 
-
-print("\nWhile loop and Fibonacci:")
+######################################
+# Using a while loop for Fibonacci
 a, b = 0, 1
 while b < 10000:
     print(b)
@@ -53,8 +53,7 @@ def fibonacci_broken_down(n):
 fibonacci_broken_down(1000)
 
 ###################################
-
-'''Recursion Examples ----> Folks "always talk about" Fibonacci and factorials when recursion comes up as a topic'''
+#Recursive Solution to Consider 
 
 def recur_fibo(n):
     #Recursive function to print Fibonacci sequence
@@ -71,8 +70,10 @@ else:
     for i in range(nterms):
         print("recursion and fibonacci: {}".format(recur_fibo(i)))
 
-#OR, here's another way to write recursion and fibonacci:
-#  this form requires a lot of time as n gets bigger. In fact, this is O(2n) in time:
+#####################################
+# Recursive Solution to Consider 
+#  this form requires a lot of time as n gets bigger. In fact, this is O(2n):
+
 def F(n):
     if n == 0: return 0
     elif n == 1: return 1
@@ -81,8 +82,9 @@ n = 10
 for i in range(n):
     print(F(i))
 
+######################################
+# Another If-elif recursion Solution
 
-print("\nAnother If-elif recursion and Fibonacci")
 def fib(n):
     if n <= 1:
         return 1
@@ -93,93 +95,6 @@ n = 20
 for i in range (n):
     print(fib(i))
 
-'''
-1
-1
-2
-3
-5
-8
-13
-21
-34
-55
-89
-144
-233
-377
-610
-987
-1597
-2584
-4181
-6765
-'''
-
-
-
-''' Output
-Using Class and Fibonacci:
-1 1 2 3 5 8 13 21 34 55 89
-While loop and Fibonacci:
-1
-1
-2
-3
-5
-8
-13
-21
-34
-55
-89
-144
-233
-377
-610
-987
-1597
-2584
-4181
-6765
-*@*@*@*@*@*
-1
-1
-2
-3
-5
-8
-13
-21
-34
-55
-89
-144
-233
-377
-610
-987
-Fibonacci sequence:
-recursion and fibonacci: 0
-recursion and fibonacci: 1
-recursion and fibonacci: 1
-recursion and fibonacci: 2
-recursion and fibonacci: 3
-recursion and fibonacci: 5
-recursion and fibonacci: 8
-recursion and fibonacci: 13
-recursion and fibonacci: 21
-recursion and fibonacci: 34
-0
-1
-1
-2
-3
-5
-8
-13
-21
-34
 
 
 
