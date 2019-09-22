@@ -1,0 +1,38 @@
+Sorting Algorithms
+
+Put elements of an array in a particular order, such as numerical ordering or alphabetical ordering.
+
+The two types of sorting algorithms:
+1. Comparison-based algorithms
+  a. bubble sort
+  b. insertion sort
+  c. selection sort
+  d. merge sort
+  e. quicksort
+
+2. Non-comparison-based algorithms
+  a. radix sort
+  b. bucket sort
+
+RUNTIMES:
+Comparison-based sorting algorithms can have O(n**2) -  O(n log n)  ... quadratic (not ideal) as the lowerbound, and  logarythmic (ideal).
+  - for sorting n items, we are not able to make less comparisons than n log n while using comparison-based sorting algorithms.
+
+non-comparison-based sorting algorithms have better runtimes -->  O(n) ... linear!
+
+MEMORY:
+Sorting algorithms can be in-place or not in-place.
+In-place will not allocate any extra memory (such as with a temporary array) - it only needs O(1) beyond the items being sorted, so an in-place algorithms needs no extra memory! This is important when sorting something like Facebook with millions of terrabites of info. 
+
+Quick sort does not need additional memory; it occurs in-place, and so it is memory efficient. Merge sort is not an in-place algorithm.
+
+RECURSION:
+Found in merge sort and quick sort ... the divide and conquer algorithms.
+
+STABILITY:
+Stable algorithms maintain the relative order of records with equal values.
+
+If there are two elements with the same values, and after sorting the relative order of those items with the same values are not changed, this is a stable sorting algorithm. If the relative order changes, the sorting algorithm is not stable.
+
+Merge sort is stable.
+Quick sort is unstable.

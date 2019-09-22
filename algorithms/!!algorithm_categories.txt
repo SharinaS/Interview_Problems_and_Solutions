@@ -1,0 +1,58 @@
+ALGORITHMS FOR DEVELOPERS / ENGINEERS
+############################################################################
+The real goal is to start living and breathing algorithms and data structures: thinking up step-by-step solutions to real-world problems, and picturing complex scenarios in terms of simple data structures. If you can master that, then the coding will come naturally. (Jason Roell - towardsdatascience.com/)
+############################################################################
+* = have down cold
+
+SORTING ALGORITHMS (for ordering (aka sorting) lists of items):
+Comparison based algorithms
+- bubble sort
+- insertion sort
+- selection sort
+- * merge sort (aka sort merge)
+- * quick sort
+
+Non-comparison based algorithms
+- radix sort
+- bucket sort
+- counting sort
+
+Other very common algorithms:
+- heap sort (comparison based?)
+- intro sort (comparison based?)
+- selection sort (comparison based?)
+
+
+SEARCHING ALGORITHMS:
+  - * linear search O(n)
+  - * binary search O(logN)
+  - Depth First Search (DFS)
+  - Breadth First Search(BFS)
+
+GRAPH TRAVERSAL ALGORITHMS:
+- Breadth First Search (BFS)
+- Depth First Search(DFS)
+
+MISC:
+- Recursion
+- Dynamic programming
+- Regex (regular expressions for string pattern matching)
+
+
+Resources:
+https://www.globalsoftwaresupport.com/algorithms-every-programmers-must-know/?utm_content=educational&utm_campaign=2019-04-11&utm_source=email-sendgrid&utm_term=837576&utm_medium=469292
+
+https://towardsdatascience.com/top-algorithms-and-data-structures-you-really-need-to-know-ab9a2a91c7b5
+
+
+
+DATA SCIENCE ALGORITHMS:
+
+https://www.globalsoftwaresupport.com/top-clustering-algorithms-every-data-scientist-must-know/?utm_content=educational&utm_campaign=2019-04-11&utm_source=email-sendgrid&utm_term=837576&utm_medium=469292
+
+In this article we are going to discuss the top clustering algorithms every data scientist must know. It is crucial for a data scientist to have a broad range of knowledge and of course to follow the latest trends in machine learning and data science. Let’s consider the top clustering algorithms one by one:
+
+k-means clustering
+dbscan algorithm
+hierarchical clustering
+expectation-maximization algorithm

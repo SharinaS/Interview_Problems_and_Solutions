@@ -1,0 +1,20 @@
+ADAPTIVE ALGORITHMS
+
+DEFINITION:
+An algorithm that changes its behavior based on information available at runtime.
+
+CHARACTERISTICS:
+- It takes advantage of existing order in its input.
+- It benefits from local orders. Such as, if an unsorted array contains sequences that are sorted by default, the algorithm will sort faster.
+- Most of the time we have to modify existing sorting algorithms to end up with an adaptive one.
+
+EXAMPLE:
+If there is a generally unsorted array, with a chunk of it that is sorted, like a sorted subarray, an adaptive algorithm could take advantage of the fact that part of the array is already sorted.
+
+TIME COMPLEXITY:
+Sometimes O(n) can be reached, such as when adaptive sort takes advantage of the existing order of the input to try to achieve better times. The more presorted the input is, the faster it should be sorted (nearly sorted sequences are common in practice!!).
+
+ALGORITHMS THAT ARE ADAPTIVE:
+- Shell sort
+
+(note that merge sort and heapsort are not adaptive algorithms)

@@ -1,0 +1,10 @@
+BUBBLE SORT ALGORITHM
+
+"When you’re doing something quick and dirty and for some reason you can’t just use the standard library’s sorting algorithm. The only advantage these have over insertion sort is being slightly easier to implement."  (this also applies to selection sort, says this article)
+- From: https://towardsdatascience.com/top-algorithms-and-data-structures-you-really-need-to-know-ab9a2a91c7b5
+
+SUMMARY:
+Steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order.
+
+RUNTIME:
+On
